@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-02T14:22:00 IST" name="Suite" finished-at="2023-12-02T14:22:00 IST" duration-ms="177">
+    <groups>
+    </groups>
+    <test started-at="2023-12-02T14:22:00 IST" name="Test" finished-at="2023-12-02T14:22:00 IST" duration-ms="177">
+      <class name="com.seleniumproject.testclass.TC_001_loginTest">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.seleniumproject.testclass.TC_001_loginTest@71d44a3]" started-at="2023-12-02T14:21:59 IST" name="setReport" finished-at="2023-12-02T14:22:00 IST" duration-ms="477" status="FAIL">
+          <exception class="java.nio.file.InvalidPathException">
+            <message>
+              <![CDATA[Illegal char <:> at index 79: C:\Users\Anurag\eclipse-workspace\seleniumdemo\reports\htmlreports2023-12-02T14:22:00.346704.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.InvalidPathException: Illegal char <:> at index 79: C:\Users\Anurag\eclipse-workspace\seleniumdemo\reports\htmlreports2023-12-02T14:22:00.346704.html
+at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+at java.base/java.io.File.toPath(File.java:2398)
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:40)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at com.seleniumproject.pageobject.Baseclass.setReport(Baseclass.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.InvalidPathException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.seleniumproject.testclass.TC_001_loginTest@71d44a3]" started-at="2023-12-02T14:22:00 IST" name="setup" finished-at="2023-12-02T14:22:00 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.seleniumproject.testclass.TC_001_loginTest@71d44a3]" started-at="2023-12-02T14:22:00 IST" name="loginTest" finished-at="2023-12-02T14:22:00 IST" duration-ms="0" status="SKIP">
+          <exception class="java.nio.file.InvalidPathException">
+            <message>
+              <![CDATA[Illegal char <:> at index 79: C:\Users\Anurag\eclipse-workspace\seleniumdemo\reports\htmlreports2023-12-02T14:22:00.346704.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.InvalidPathException: Illegal char <:> at index 79: C:\Users\Anurag\eclipse-workspace\seleniumdemo\reports\htmlreports2023-12-02T14:22:00.346704.html
+at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+at java.base/java.io.File.toPath(File.java:2398)
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:40)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at com.seleniumproject.pageobject.Baseclass.setReport(Baseclass.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.InvalidPathException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:com.seleniumproject.testclass.TC_001_loginTest@71d44a3]" started-at="2023-12-02T14:22:00 IST" name="browserclose" finished-at="2023-12-02T14:22:00 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.seleniumproject.testclass.TC_001_loginTest@71d44a3]" started-at="2023-12-02T14:22:01 IST" name="endReport" finished-at="2023-12-02T14:22:01 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.seleniumproject.testclass.TC_001_loginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
